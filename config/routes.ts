@@ -1,0 +1,27 @@
+﻿export default [
+  {
+    component:'./Layout',
+    routes:[
+      {
+        path:'/',
+        name:'主页',
+        redirect:'/index'
+      },
+      {
+        path:'/index',
+        name:'主页',
+        component:'./home'
+      },
+      {
+        path:'/find',
+        name:'发现',
+        component:'./find'
+      },
+      {
+        path:'/about',
+        name:'关于',
+        component:'./about'
+      }
+    ]
+  }
+];
